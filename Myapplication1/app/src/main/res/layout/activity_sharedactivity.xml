@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sharedactivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="209dp"
+        android:layout_height="222dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/shakib"
+        android:transitionName="imageTransition"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Shakib Al Hasan (Bengali: সাকিব আল হাসান; born 24 March 1987) is a Bangladeshi international cricketer who holds the record for being ranked first as an all rounder in the One Day International (ODI) format for 10 years and is still among the top 3 in highest current rankings in all three formats of the game (Test, T20I and ODIs)."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:editable="true"
+        android:lines="4"
+        android:text="Shakib Al Hasan  "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="53dp"
+        android:text="all rounder"
+        android:textSize="18sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+
+        android:layout_height="322dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shakib_stat" />
+
+</RelativeLayout>

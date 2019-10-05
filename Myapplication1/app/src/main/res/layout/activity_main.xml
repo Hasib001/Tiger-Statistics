@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        app:srcCompat="@drawable/bcb_logo" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="250dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+
+            <Button
+                android:id="@+id/button"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="Shakib Al Hasan"
+                android:transitionName="imageTransition"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+            <Button
+                android:id="@+id/tamim"
+                style="@android:style/Widget.Holo.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="100dp"
+
+                android:text="Tamim Iqbal"
+                android:transitionName="imageTransition"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="146dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:text="Button" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
